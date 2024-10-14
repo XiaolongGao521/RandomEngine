@@ -1,0 +1,11 @@
+# ===== apple_support =====
+
+bazel_dep(name = "apple_support", version = "1.17.1", repo_name = "build_bazel_apple_support")
+
+# ===== googletest =====
+
+bazel_dep(name = "googletest", version = "1.15.2")
+
+# ===== glm =====
+
+bazel_dep(name = "glm", version = "1.0.0.bcr.1")
